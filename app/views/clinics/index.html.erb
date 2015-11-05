@@ -1,0 +1,7 @@
+<h1>Clinics In my Neighborhood</h1>
+
+<ul>
+  <% @clinics.each do |clinic| %>
+    <li><%= link_to clinic.name %></li>
+    <% end %>
+</ul>
